@@ -1,0 +1,159 @@
+---------------------- Sprint 4 Bugs List -----------------------------------------------------
+
+Client Profile page
+
+Search function: working
+_Duplicate names – Need something in place for when 2 people have the same name --- RESOLVED (zahid)_
+_-Drop down menu off the search, Enter to populate the client form --- DONE (zahid)_
+_-Un editable Client ID section (right margin above information) --- DONE (zahid)_
+_Save/Update - changing firstname, lastname or DOB causes app to create new user --- RESOLVED (zahid)_
+_Clear Button - Working, Weird warning error when no input --- RESOLVED (zahid)_
+
+_Delete function – not functional --- RESOLVED (zahid)_
+*Warnings for invalid entry – Phone number, name --- RESOLVED (zahid)\*\*
+*Identified Gender, Sexual orientation – able to accept # and characters. --- RESOLVED (zahid)\*
+_DOB – needs warning for age range --- RESOLVED (zahid)_
+Additional Notes – Working
+
+_Create ticket button – not saving client when no shelters available. --- RESOLVED (braydon)_
+
+- Shelters cannot accept anyone
+- Ticket creation Logic - revisit
+
+Ticket Selection – working.
+
+_Fix iPhone X & 11 viewport --- (DONE) Riley
+\_Fix ticket block tickets to match in size in main menu / ticket management (Mobile) --- DONE (Riley)
+\_Change color to purple color instead of grey --- RESOLVED (ZAHID)_
+_Add clientid and disable it - Fixed by Zahid and his magic dropdown_ _--- RESOLVED (zahid)_
+
+_Inconsistent versions of client data in database --- RESOLVED (ZAHID)_
+
+Shelter Profiles page
+
+Shelter List – Alphabetical
+_Buttons should be uniform - Fixed(Greg)_
+_Clear Button - Move to bottom - Fixed(Greg)_
+_Clear Form – Breaks when nothing in form - Fixed(Greg)_
+_Save => Update (disable when nothing is populated) - Fixed(Greg)_
+
+Add new – Validation working - Ashley
+
+- Validation
+- Postal code
+- Phone number -- done
+- Cell -- done
+- Email
+
+_Age range errors - need to remove age range -fixed(braydon)_
+_All female/male Validation -fixed(braydon)_
+_FIX Requirements on new ticket creation to filter through ALL fields including SEX -fixed(braydon)_
+_Change color to purple color instead of grey --- RESOLVED (ZAHID)_
+_Change "Restrictions" to "Accepting" or something to make it more clear --- FIXED ('able to accomodate') Greg_
+_Inconsistent versions of shelter data in database --- RESOLVED (ZAHID)_
+
+Ticket Management page
+Mobile syling - --- DONE (Riley)
+_Date closed – should populate the closed date when changed --- RESOLVED (zahid)_
+Save Button causes app to crash --- FIXED (zahid)
+_Remove X button on shelters - DONE (Ashley)_
+_Disable – ticket id, client ID, created date, first, last, victim profile --- DONE (zahid)_
+_Client ID Shortening --- Done (zahid)_
+_Pending on creation – currently showing closed status --- FIXED (BRAYDON)_
+_Closed Button- adding date closed, not changing database to closed --- FIXED (zahid)_
+Add a Clear/back button --- FIXED (Greg) -
+Delete button works
+_Change color to purple color instead of grey --- RESOLVED (ZAHID)_
+Move the shelter dropdown, change default from none to unasigned -- ?
+Remove the search at bottom of page, change to using clear/back button --- DONE (zahid)
+
+ADMIN page
+
+Add confirm password to Update --- DONE (zahid)
+Add button for backend (LINK TO FIREBASE) --- DONE (zahid)
+_remove logo off Add New User - DONE (Ashley)_
+_resize register button - DONE (Ashley)_
+_fix position of eye icon - Ashley_
+
+LOGIN PAGE:
+_resize login button - DONE_
+validation and warning messages needed --- DONE (zahid)
+
+entirety of shelterviewpage - Done Farzeen
+Timer for populating cards for shelters - Braydon
+
+---
+
+11/24/2021 - NEW BUGS LIST
+
+- all pages (clientprofile, ticketmanagement, shelterprofile, mainmenu) crashes when there is no tickets in db -- FIXED (zahid)
+
+admin page - shelterview page
+
+- add confirm text field --- DONE (zahid)
+- similar textbox and button sizes --- DONE (zahid)
+
+client page
+
+- ui blows when name is super long --- FIXED (zahid)
+- lower validation - remove extra required validation ---FIXED (zahid)
+- unable to retrieve any client without search --- FIXED (zahid)
+- sex instead of gender --- FIXED (zahid)
+- allow any type of name- chars, numbers --- FIXED (zahid)
+- getting first instance on the dropdown for duplicate instances -- fixed (zahid)
+- ticket creation - client with kids gets assigned with a shelter that can not accommodate kids --- FIXED (Braydon)
+- # fix buttons styling when window minimized -- DONE (Riley)
+- ticket creation - client with kids gets assigned with a shelter that can not accommodate kids --- FIXED (BRAYDON)
+- fix buttons styling when window minimized --- DONE (Riley)
+
+ticket management
+
+- delete go back button --- FIXED (Greg)
+- incomplete styling buttons --- DONE (Riley)
+- populate client profiles textarea --- IN PROGRESS (Greg)
+- Shelter list for mobile fix --- DONE (Riley)
+- complete close button functionality --- FIXED (zahid)
+- disable the date closed field --- FIXED (zahid)
+- revisit save button functionality. dont save without chosen shelter --- FIXED (zahid)
+- change status to closed/open --- FIXED (zahid)
+
+shelter page
+
+- lower validation - remove cellphone as required --- DONE (Ashley)
+- fix checkboxes ui styling -- DONE (Riley)
+- # fix shelter list ui max width styling -- DONE (Riley)
+- fix checkboxes ui --- DONE (Riley)
+- fix shelter list ui max width --- DONE (Riley)
+
+---------- Sprint 5 bugs and nice to haves list -----------------------------
+
+Bugs list, UI fixes and Nice to Haves - Nov 29
+https://www.notion.so/e18e586464434f499b5ca038c91894e0?v=558e097567cc490ba2f060a57caee987
+
+Bugs:
+
+- admin page - adding a new cease agent replaces the lastly added agent. previous agent data is lost --- FIXED (ZAHID)
+- Save Notes when closing tickets - --- Fixed (Farzeen)
+- Alert for Delete shelter and client --- Fixed (Farzeen)
+- Shelter selection from ticket management --- Done (Braydon)
+- Validation for email address for adding or updating shelter's email address --- FIXED (zahid)
+- Reloading window make the user sign out automatically --- FIXED (Braydon & Greg)
+
+Major UI issues:
+
+ShelterProfilePage
+
+- Shelter List Grid UI breaks when shelter name is too long --- Fixed(Greg)
+- Shelter List Grid UI breaks for certain number of shelters present in the list--- Fixed(Greg)
+- Previous tickets column UI breaks in mobile ---- Fixed (Farzeen)
+- Styles need to change as suggested by Yvette ----- DONE(Farzeen & Riley)
+- Admin Page UI breaks in Mobile ----Fixed (Farzeen)
+
+test in mobile
+
+Nice to Have:
+
+- Search function in shelter profile page implemented --- DONE (zahid)
+- notifying cease agent that a shelter has accepted for a ticket --- DONE (zahid)
+- shelterside - ticket will retain unless ticket is closed or rejected. show acceptance message. --- DONE (zahid)
+- mainMenu - implement a timer function to update every tickets every 2 minutes --- DONE (zahid)

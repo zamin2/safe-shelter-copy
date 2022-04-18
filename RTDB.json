@@ -1,0 +1,284 @@
+{
+  "Agents" : [ {
+    "email" : "dummyuser@gmail.com",
+    "name" : "dummyuser"
+  } ],
+  "ClientList" : [ {
+    "user" : {
+      "DOB" : "1997-02-17",
+      "FirstName" : "Mister",
+      "Gender" : "Male",
+      "Identify" : "Male",
+      "LastName" : "John",
+      "Notes" : "",
+      "Orientation" : "Heterosexual",
+      "Phone" : "7805241254",
+      "clientID" : 1000,
+      "dateCreated" : "2022-02-17",
+      "requirements" : {
+        "accessibilty" : false,
+        "drugAlcoholDep" : false,
+        "kids" : {
+          "AgeRange" : "",
+          "kidsExist" : false
+        },
+        "mentalHealthPrescrip" : false,
+        "physicalHealthPrescrip" : false,
+        "serviceAnimal" : false
+      }
+    }
+  }, {
+    "user" : {
+      "DOB" : "1994-06-15",
+      "FirstName" : "Mister",
+      "Gender" : "Male",
+      "Identify" : "Male",
+      "LastName" : "Jack",
+      "Notes" : "",
+      "Orientation" : "Heterosexual",
+      "Phone" : "7805241254",
+      "clientID" : 1001,
+      "dateCreated" : "2022-02-17",
+      "requirements" : {
+        "accessibilty" : false,
+        "drugAlcoholDep" : false,
+        "kids" : {
+          "AgeRange" : "",
+          "kidsExist" : false
+        },
+        "mentalHealthPrescrip" : false,
+        "physicalHealthPrescrip" : false,
+        "serviceAnimal" : false
+      }
+    }
+  }, {
+    "user" : {
+      "DOB" : "2011-06-22",
+      "FirstName" : "Miss",
+      "Gender" : "Female",
+      "Identify" : "Female",
+      "LastName" : "Jackson",
+      "Notes" : "",
+      "Orientation" : "Heterosexual",
+      "Phone" : "7805241254",
+      "clientID" : 1002,
+      "dateCreated" : "2022-02-17",
+      "requirements" : {
+        "accessibilty" : false,
+        "drugAlcoholDep" : false,
+        "kids" : {
+          "AgeRange" : "",
+          "kidsExist" : false
+        },
+        "mentalHealthPrescrip" : false,
+        "physicalHealthPrescrip" : false,
+        "serviceAnimal" : false
+      }
+    }
+  } ],
+  "ShelterList" : [ {
+    "shelter" : {
+      "Address" : "10123 12 Avenue NW",
+      "Cell" : "",
+      "City" : "Edmonton",
+      "Contact" : "Jon",
+      "Name" : "Men Care",
+      "Notes" : "",
+      "Phone" : "7802312312",
+      "Postal" : "T6E1Y5",
+      "Province" : "AB",
+      "email" : "mencare@login.ca",
+      "requirements" : {
+        "acceptedGender" : "Male",
+        "accessability" : false,
+        "drugAlcoholDep" : false,
+        "kids" : {
+          "kidsExist" : false
+        },
+        "mentalHealthPrescrip" : false,
+        "physicalHealthPrescrip" : false,
+        "serviceAnimal" : false
+      },
+      "shelterID" : "1c68523-a2b-7526-561e-12a8b6548"
+    }
+  }, {
+    "shelter" : {
+      "Address" : "10305 28 Avenue NW",
+      "Cell" : "",
+      "City" : "Edmonton",
+      "Contact" : "Jack",
+      "Name" : "Men Care 2",
+      "Notes" : "",
+      "Phone" : "7805464564",
+      "Postal" : "T6E1Y5",
+      "Province" : "AB",
+      "email" : "mencare2@login.ca",
+      "requirements" : {
+        "acceptedGender" : "Male",
+        "accessability" : true,
+        "drugAlcoholDep" : true,
+        "kids" : {
+          "kidsExist" : true
+        },
+        "mentalHealthPrescrip" : true,
+        "physicalHealthPrescrip" : true,
+        "serviceAnimal" : true
+      },
+      "shelterID" : "cc34f0-7d-cd8f-62be-bdbfe6d56827"
+    }
+  }, {
+    "shelter" : {
+      "Address" : "10123 93 Avenue NW",
+      "Cell" : "",
+      "City" : "Edmonton",
+      "Contact" : "Jessie",
+      "Name" : "Women Shelter",
+      "Notes" : "",
+      "Phone" : "7805464564",
+      "Postal" : "T6E1Y5",
+      "Province" : "AB",
+      "email" : "womenshelter@login.ca",
+      "requirements" : {
+        "acceptedGender" : "Female",
+        "accessability" : true,
+        "drugAlcoholDep" : true,
+        "kids" : {
+          "kidsExist" : true
+        },
+        "mentalHealthPrescrip" : true,
+        "physicalHealthPrescrip" : true,
+        "serviceAnimal" : true
+      },
+      "shelterID" : "4c7b25f-4d00-4a4d-405b-84fd6a58a601"
+    }
+  }, {
+    "shelter" : {
+      "Address" : "103655 28 Avenue NW",
+      "Cell" : "",
+      "City" : "Edmonton",
+      "Contact" : "Jack",
+      "Name" : "Youth Care",
+      "Notes" : "",
+      "Phone" : "7805464564",
+      "Postal" : "T6E1Y5",
+      "Province" : "AB",
+      "email" : "youthcare@login.ca",
+      "requirements" : {
+        "acceptedGender" : "All",
+        "accessability" : true,
+        "drugAlcoholDep" : true,
+        "kids" : {
+          "kidsExist" : true
+        },
+        "mentalHealthPrescrip" : true,
+        "physicalHealthPrescrip" : true,
+        "serviceAnimal" : true
+      },
+      "shelterID" : "4eb653-3f82-8e06-68e0-ea88eff561aa"
+    }
+  }, {
+    "shelter" : {
+      "Address" : "101323 93 Avenue NW",
+      "Cell" : "",
+      "City" : "Edmonton",
+      "Contact" : "Andy",
+      "Name" : "Cease Shelters",
+      "Notes" : "",
+      "Phone" : "7805464564",
+      "Postal" : "T6E1Y5",
+      "Province" : "AB",
+      "email" : "ceaseshelters@login.ca",
+      "requirements" : {
+        "acceptedGender" : "All",
+        "accessability" : true,
+        "drugAlcoholDep" : true,
+        "kids" : {
+          "kidsExist" : true
+        },
+        "mentalHealthPrescrip" : true,
+        "physicalHealthPrescrip" : true,
+        "serviceAnimal" : true
+      },
+      "shelterID" : "bd355-180a-f7ff-74ea-2ba41e6517a6"
+    }
+  } ],
+  "Tickets" : [ {
+    "Ticket" : {
+      "ClientID" : 1002,
+      "ClientProfile" : "\nSex: Female\nIdentifies as: Female\nSexual Orientation: Heterosexual\nAccomodations Needed For:",
+      "DateClosed" : "",
+      "DateOpen" : "2022-02-17",
+      "FirstName" : "Miss",
+      "LastName" : "Jackson",
+      "Notes" : "",
+      "ShelterID" : "",
+      "ShelterName" : "",
+      "ShelterReplys" : [ {
+        "Reply" : "0",
+        "ShelterID" : "4c7b25f-4d00-4a4d-405b-84fd6a58a601"
+      }, {
+        "Reply" : "0",
+        "ShelterID" : "4eb653-3f82-8e06-68e0-ea88eff561aa"
+      }, {
+        "Reply" : "0",
+        "ShelterID" : "bd355-180a-f7ff-74ea-2ba41e6517a6"
+      } ],
+      "Status" : "Open",
+      "TicketID" : 1002
+    }
+  }, {
+    "Ticket" : {
+      "ClientID" : 1000,
+      "ClientProfile" : "\nSex: Male\nIdentifies as: Male\nSexual Orientation: Heterosexual\nAccomodations Needed For:",
+      "DateClosed" : "",
+      "DateOpen" : "2022-02-17",
+      "FirstName" : "Mister",
+      "LastName" : "John",
+      "Notes" : "",
+      "ShelterID" : "",
+      "ShelterName" : "",
+      "ShelterReplys" : [ {
+        "Reply" : "0",
+        "ShelterID" : "1c68523-a2b-7526-561e-12a8b6548"
+      }, {
+        "Reply" : "0",
+        "ShelterID" : "cc34f0-7d-cd8f-62be-bdbfe6d56827"
+      }, {
+        "Reply" : "0",
+        "ShelterID" : "4eb653-3f82-8e06-68e0-ea88eff561aa"
+      }, {
+        "Reply" : "0",
+        "ShelterID" : "bd355-180a-f7ff-74ea-2ba41e6517a6"
+      } ],
+      "Status" : "Open",
+      "TicketID" : 1003
+    }
+  }, {
+    "Ticket" : {
+      "ClientID" : 1001,
+      "ClientProfile" : "\nSex: Male\nIdentifies as: Male\nSexual Orientation: Heterosexual\nAccomodations Needed For:",
+      "DateClosed" : "",
+      "DateOpen" : "2022-02-17",
+      "FirstName" : "Mister",
+      "LastName" : "Jack",
+      "Notes" : "",
+      "ShelterID" : "",
+      "ShelterName" : "",
+      "ShelterReplys" : [ {
+        "Reply" : true,
+        "ShelterID" : "1c68523-a2b-7526-561e-12a8b6548"
+      }, {
+        "Reply" : false,
+        "ShelterID" : "cc34f0-7d-cd8f-62be-bdbfe6d56827"
+      }, {
+        "Reply" : "0",
+        "ShelterID" : "4eb653-3f82-8e06-68e0-ea88eff561aa"
+      }, {
+        "Reply" : "0",
+        "ShelterID" : "bd355-180a-f7ff-74ea-2ba41e6517a6"
+      } ],
+      "Status" : "Open",
+      "TicketID" : 1004
+    }
+  } ]
+}
